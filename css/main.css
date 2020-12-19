@@ -26,8 +26,17 @@ body{
 .container .row .col-md-3 img{
     width: 70%;
 }
+.container .row .btn{
+    background-color: #45b690;
+    width: 15%;
+    margin: auto;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 3rem;
+    text-shadow: 1px 0 #e41732;
+}
 footer{
-    margin-top: 6rem;
+    margin-top: 3rem;
     font-family: 'Indie Flower', cursive;
     color: rgb(207, 203, 203);
     text-shadow: 1px 0 #e41732;
@@ -45,6 +54,9 @@ footer{
     .container .row .col-md-3 img{
         width: 90%;
     }
+    .container .row .btn{
+        width: 25%;
+    }
 }
 
 @media screen and (max-width:576px){
@@ -61,6 +73,14 @@ footer{
     }
     .container .row .col-md-3 img{
         width: 100%;
+    }
+    .container .row .btn{
+        width: 28%;
+        padding: 3px;
+        margin: auto;
+        letter-spacing: 1px;
+        color: white;
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width:360px){
